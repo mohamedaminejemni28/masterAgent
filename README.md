@@ -188,8 +188,8 @@ streamlit run app/dashboard.py
 
 * 🎓 Élève ingénieur à **Sup’Com**
 * 💼 Stage d’ingénieur chez **SFM Technologies**
-* 📧 Email : [[votre.email@example.com](mailto:votre.email@example.com)]
-* 🔗 [LinkedIn](#) | [GitHub](#)
+* 📧 Email : [[votre.email@example.com](mailto:mohamedamine.jemni@supcom.tn)]
+* 🔗 [LinkedIn](https://www.linkedin.com/in/mohamed-amine-jemni-860b8b365/) 
 
 ---
 
