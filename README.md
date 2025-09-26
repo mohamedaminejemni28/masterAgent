@@ -112,25 +112,23 @@ Le système repose sur une **architecture hiérarchique** :
 
 ```bash
 multi-agent-ai/
-│── agents/
-│   ├── master_agent.py          # Orchestration et coordination
-│   ├── competitive_agent.py     # Veille concurrentielle
-│   ├── training_agent.py        # Veille formation
-│   ├── project_agent.py         # Suivi de projets
-│   ├── general_agent.py         # Recherche générale
+│── masterAgent.py             # Main orchestrator
+│── masterAgent copy.py        # Backup / alternate version
+│── concurrent.py              # Competitive intelligence agent
+│── formation.py               # Training watch agent
+│── relances.py                # Project monitoring / reminders agent
+│── avis_marche.py             # Market feedback analysis
+│── convert.py                 # Utility for data conversion
 │
-│── app/
-│   ├── dashboard.py             # Application Streamlit
+│── ALL8DATA.csv               # Dataset
+│── concurrents_sfm.csv        # Competitor data
+│── data.csv                   # Processed dataset
+│── Agent_Commercial_IA_SFM_Gigantic_Dataset.xlsx # Large dataset
 │
-│── data/                        # Données collectées et sauvegardées
-│── utils/                       # Fonctions utilitaires
-│── tests/                       # Scripts de tests unitaires
-│
-│── requirements.txt             # Liste des dépendances
-│── README.md
+│── README.md                  # Documentation
+
 ```
 
----
 
 ## 📊 Résultats obtenus
 
